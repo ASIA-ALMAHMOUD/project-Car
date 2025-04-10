@@ -1,0 +1,81 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+ .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+/* -- special -- */
+ li{
+    list-style: none;
+
+
+  }
+  a{
+    text-decoration: none;
+    text-transform:capitalize ;
+    color: var(--but--color);
+    font-size: 1.4rem;
+
+  }
+
+  .nav-li{
+   display: flex;
+  align-items: center;
+  gap: 50px;
+
+  }
+
+ :root{
+  --back--color:rgb(45, 20, 63);
+  --main-color:#c4a4ce;
+  --border--sec-color:#FFDD11;
+  --but--color:#491957;
+  --header-color:#937b9b;
+
+ }
+
+
+
+
+/* --- */
+
+  
+ 
+
+  
+  
+  @media (min-width: 576px) {
+    .container {
+      width: calc(576px - 60px);
+    }
+  }
+  
+  @media (min-width: 768px) { 
+    .container {
+      width: calc(768px - 60px);
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      width: calc(992px - 60px);
+    }
+  }
+  
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: calc(1200px - 60px);
+    }
+  }
+  @media (min-width: 1400px) {
+    .container {
+      width: calc(1400px - 60px);
+    }
+  }
