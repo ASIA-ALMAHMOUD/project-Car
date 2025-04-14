@@ -19,7 +19,7 @@
   a{
     text-decoration: none;
     text-transform:capitalize ;
-    color: var(--but--color);
+    color: var(--back--color);
     font-size: 1.4rem;
 
   }
